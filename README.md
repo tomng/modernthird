@@ -7,10 +7,15 @@ Sharing a collection of great tools for the good life.
 An Eleventy (11ty) -based blog using Tailwind CSS with support for Netlify CMS.
 
 ## Getting Started
+
+To run:
 ```
 npm install
 npm run start
 ```
+
+To edit:
+Edit `src/index.njk`.
 
 ## Notes
 
