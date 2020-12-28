@@ -1,0 +1,19 @@
+---
+title: About
+layout: page
+---
+
+Sometimes it seems like modern society is a showcase of extremes.
+## Too much
+It’s easy to flick on the TV (which we don’t recommend – it’s way more fun to experience stuff than watch stuff!) or ads plastered across the web to find examples of excess consumption. Gadget blogs are filled with product launches and Kickstarters for that new single-use disposable consumer gadget that will change your life. But nobody actually needs a Wi-Fi connected quesadilla maker that they have to keep feeding with disposable plastic cups that end up in the landfill. (I’m only hoping that not a real thing, but we’re  [getting close](https://www.fastcodesign.com/3065667/this-1500-toaster-oven-is-everything-thats-wrong-with-silicon-valley-design) …).
+Those things aren’t just a waste of money — worse, they’re a waste of your time, and they’re a distraction from learning lifelong skills that actually make you happier. They get in the way of you learning how to make your own quesadilla with a simple pan in 2 minutes, which costs 10 times less – and tastes 100 times better.
+Waste and the pursuit of stuff only gets in the way of happiness.
+## Too little
+Then there’s the other extreme: the life of deprivation and endless “detox.” The equivalent of just eat nuts and berries, getting rid of all your material possessions, abandoning all technology. Way less common, but scary because it’s often framed as the only alternative. That doesn’t make sense either. Humans use tools to make ourselves better, to in turn make others’ lives better. The Internet that we waste time reading social media feeds on also gives us an infinite library that helps us learn new skills, new pursuits, and new passions. The goal isn’t to abandon great tools, it’s to identify and take best advantage of them.
+## Just right
+So between excess consumption and Spartan struggling, we believe there’s a third, better way – a middle path.  [Modernthird](http://modernthird.com/)  is about finding that better way.
+This isn’t a place for single-use disposable consumer gadgets, endless tech specs, or unending lists of stuff to fill your house with. Instead, it’s about a few awesome, versatile tools that help make you better at learning and life.
+You won’t find “the best” quesadilla maker, or even the “the best” $300 knife set with cutting block – but you will find the one best knife and one best pan to get you confident and excited about cooking for life. You won’t find twelve different “best” specialized cleaning solutions for each different item and room in your house, but we’ll talk about learning to mix plain old water and vinegar to get an organic, non-toxic, cleaner that cleans 80% of your stuff brilliantly, streak-free. **Better than upgrading all your objects, you can upgrade yourself with tools and knowledge: You are better than a product.**
+To keep this site running, when folks choose to buy tools we recommend, we earn affiliate commissions at no cost to them. We think buying a few great tools is better than constantly buying lots of things you don’t need, and you’ll notice a pattern: pretty much everything we recommend leads to a whole bunch of things you *won’t* need to buy anymore. And if we can ever do better, please drop us a note so we can keep improving to help others waste less and do better!
+Good design is about what you take away, and the few things that you leave behind – the things that really help. We’re obsessive about finding that small set of cool tools, researching, testing and using them everyday. And we’re excited to share them with you.
+Waste less, live better. Let’s go.

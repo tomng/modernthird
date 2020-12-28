@@ -1,4 +1,5 @@
 ---
+title: Blog
 layout: toc
 ---
 
@@ -6,7 +7,7 @@ layout: toc
     {% set postslist = collections.post %}
 
     {% for post in postslist | reverse %}
-        <article class="my-8">
+        <article class="my-8 max-w-full px-6">
             <h2 class="font-bold text-3xl text-gray-900 mb-2">
                 <a href="{{ post.url | url }}">
                     {% if post.data.title %}

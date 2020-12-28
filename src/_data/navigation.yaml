@@ -2,5 +2,5 @@
 items:
   - text: Recommendations
     url: "/reviews"
-  - text: Blog
-    url: "/blog"
+  - text: About
+    url: "/about"
