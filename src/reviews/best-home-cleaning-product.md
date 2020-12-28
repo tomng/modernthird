@@ -1,7 +1,7 @@
 ---
-title: Vinegar & Water
-subtitle: Best cleaning product for windows, kitchen counters, and surfaces all around your home.
-description: Sometimes the best product is no product at all. Mixing simple distilled vinegar and water (1:1) is the best way to clean most of the hard surfaces in your home to get a spot-free, streak-free, germ-free shine.
+title: Vinegar & Water in a Spray Bottle
+subtitle: Best everyday cleaning product for your home
+description: Often the best product is one you can make yourself – in less time than it takes to open an Amazon box. Mix distilled vinegar and water (1:1) in a spray bottle. It's the best way to clean glass, kitchen counters, and most hard surfaces all around your home. A gallon jug of vinegar covers a year's worth of your cleaning supplies for a few bucks. 
 date: 2020-09-02
 author: Tom
 tags:
@@ -10,6 +10,11 @@ tags:
 ---
 
 Sometimes the best product is no product at all. Mixing simple distilled vinegar and water (1:1) is the best way to clean most of the hard surfaces in your home to get a spot-free, streak-free, germ-free shine.
+
+Spot-free, streak-free, germ-free shine.
+
+No worries about spraying toxic chemicals around where you live and eat!
+
 
 1 part distilled white vinegar (any brand is fine) + 1 part hot water = cleaning magic
 

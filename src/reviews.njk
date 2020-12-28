@@ -7,35 +7,43 @@ layout: toc
     {% set recommendationslist = collections.recommendation %}
 
     {% for recommendation in recommendationslist | reverse %}
-        <article class="my-8 max-w-sm border-4 border-gray-100 border-opacity-10 rounded-3xl shadow-2xl p-8">
-            <h2 class="font-bold text-5xl text-gray-800 mt-8">
-                <a href="{{ recommendation.url | url }}">
-                    {% if recommendation.data.title %}
-                        {{ recommendation.data.title }}
-                    {% else %}
-                        Untitled
-                    {% endif %}
-                </a>
-            </h2>
-            <h3 class="font-bold text-indigo-500 text-2xl text-gray-900 leading-tight mt-4 mb-6">
-                <a href="{{ recommendation.url | url }}">
-                    {% if recommendation.data.subtitle %}
-                        {{ recommendation.data.subtitle }}
-                    {% endif %}
-                </a>
-            </h3>
-            {% if recommendation.data.description %}
-                <p class="text-lg text-gray-500 mb-3">
-                    {{ recommendation.data.description }}
-                </p>
-            {% endif %}
+        <article class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-white my-8 max-w-full border-4 border-gray-100 border-opacity-10 rounded-3xl shadow-2xl p-8">
+            <div class="">
+                <h2 class="font-bold text-5xl text-gray-800 mt-2 mb-4">
+                    <a href="{{ recommendation.url | url }}">
+                        {% if recommendation.data.title %}
+                            {{ recommendation.data.title }}
+                        {% else %}
+                            Untitled
+                        {% endif %}
+                    </a>
+                </h2>
+                <h3 class="font-bold text-2xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+                    <a href="{{ recommendation.url | url }}">
+                        {% if recommendation.data.subtitle %}
+                            {{ recommendation.data.subtitle }}
+                        {% endif %}
+                    </a>
+                </h3>
+                {% if recommendation.data.description %}
+                    <p class="text-lg text-gray-500 mb-3">
+                        {{ recommendation.data.description }}
+                    </p>
+                {% endif %}
 
-            <p class="mt-8">
-                <a href="{{ recommendation.url | url }}" class="text-indigo-500 font-bold text-lg">
-                    Read more →
-                </a>
-            </p>
+                <a href="{{ recommendation.url | url }}">
+                    <p class="text-blue-500 font-bold text-lg mt-12 text-right">
+                        Free (Basically)
+                    </p>
 
+                    <p class="text-gray-500 text-base text-right">
+                        Read more →
+                    </p>
+                </a>
+            </div>
+            <div>
+                <img class="object-cover rounded-3xl w-full h-full" src="https://source.unsplash.com/random"/>
+            </div>
         </article>
     {% endfor %}
 </section>
