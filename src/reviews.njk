@@ -1,4 +1,5 @@
 ---
+title: The Best Stuff
 layout: toc
 ---
 
@@ -6,8 +7,8 @@ layout: toc
     {% set recommendationslist = collections.recommendation %}
 
     {% for recommendation in recommendationslist | reverse %}
-        <article class="my-8">
-            <h2 class="font-bold text-3xl text-gray-900 mb-2">
+        <article class="my-8 max-w-sm border-4 border-gray-100 border-opacity-10 rounded-3xl shadow-2xl p-8">
+            <h2 class="font-bold text-5xl text-gray-800 mt-8">
                 <a href="{{ recommendation.url | url }}">
                     {% if recommendation.data.title %}
                         {{ recommendation.data.title }}
@@ -16,21 +17,20 @@ layout: toc
                     {% endif %}
                 </a>
             </h2>
-            <p class="text-base leading-6 text-gray-500 mb-3">
-                <time>
-                    {{ recommendation.date | readableDate }}
-                    by
-                    <a>{{ recommendation.data.author }}</a>
-
-                </time>
-            </p>
+            <h3 class="font-bold text-indigo-500 text-2xl text-gray-900 leading-tight mt-4 mb-6">
+                <a href="{{ recommendation.url | url }}">
+                    {% if recommendation.data.subtitle %}
+                        {{ recommendation.data.subtitle }}
+                    {% endif %}
+                </a>
+            </h3>
             {% if recommendation.data.description %}
                 <p class="text-lg text-gray-500 mb-3">
                     {{ recommendation.data.description }}
                 </p>
             {% endif %}
 
-            <p>
+            <p class="mt-8">
                 <a href="{{ recommendation.url | url }}" class="text-indigo-500 font-bold text-lg">
                     Read more →
                 </a>
