@@ -1,6 +1,6 @@
 ---
 items:
   - text: Recommendations
-    url: "/recommendations"
+    url: "/reviews"
   - text: Blog
     url: "/blog"
