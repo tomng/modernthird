@@ -1,10 +1,6 @@
 ---
 items:
-  - text: Menu One
-    url: "#"
-  - text: Menu Two
-    url: "#"
   - text: Recommendations
-    url: "/reviews"
+    url: "/recommendations"
   - text: Blog
     url: "/blog"
