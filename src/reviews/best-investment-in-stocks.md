@@ -1,9 +1,9 @@
 ---
-title: White Vinegar & Water
-subtitle: The best all-purpose home cleaning product
-description: Often the best product is one you can make yourself – in less time than it takes to open an Amazon box. Mix distilled vinegar and water (1:1) in a spray bottle. It's the best way to clean glass, kitchen counters, and most hard surfaces all around your home. A gallon jug of vinegar covers a year's worth of your cleaning supplies for a few bucks.
-price: Free (Basically) 
-cover_photo: kitchen-towel.jpg
+title: "VTSAX: Vanguard Total Stock Market Index Fund"
+subtitle: The best simple investment for most people
+description: Often the best product is one you can make yourself – in less time than it takes to open an Amazon box. Mix distilled vinegar and water (1:1) in a spray bottle. It's the best way to clean glass, kitchen counters, and most hard surfaces all around your home. A gallon jug of vinegar covers a year's worth of your cleaning supplies for a few bucks. 
+price: Free to Setup
+cover_photo: dollar-bill.jpg
 date: 2020-09-02
 author: Tom
 tags:

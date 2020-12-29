@@ -5,23 +5,41 @@ path: home
 ---
 
 <div class="container mx-auto lg:h-screen lg:pb-36 flex flex-col justify-center px-20 max-w-4xl">
-  <h1>
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      {{title}}
-    </strong>
-    <br/>
-    is a shortlist of great&nbsp;stuff* 
-    to simplify&nbsp;& live&nbsp;better.
-  </h1>
-  <h2 class="mt-4 mb-8">
-    <span class="bg-yellow-100 p-1">Buy less</span>, enjoy your best, and <span class="bg-yellow-100 p-1">live more</span>.
-  </h2>
-  <p class="font-normal text-lg my-5" >
-    <strong>*</strong> Stuff – like tools to help us live better, create, help others, and grow – can be awesome. But most of the stuff sold to us by consumer culture is throwaway and wasteful. 
-  </p>
-  <p class="font-normal text-lg" >
-  Yet there's a middle path between being a minimalist ascetic and buying stuff you don't need. Modernthird is a list of things I really like on that middle path.  
-  </p>
+
+  <a href="/reviews">
+    <h1>
+      <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+        {{title}}
+      </strong>
+      <br/>
+      is a shortlist of great&nbsp;stuff* 
+      to simplify&nbsp;& live&nbsp;better.
+    </h1>
+    <h2 class="mt-4 mb-8">
+      <span class="bg-yellow-100 p-1">Buy less</span>, enjoy your best, and <span class="bg-yellow-100 p-1">live more</span>.
+    </h2>
+  </a>
+
+  <div class="flex flex-row text-gray-700 mt-2 lg:mt-6 lg:mx-10 max-w-lg">
+    <p class="flex-initial text-3xl lg:text-4xl mr-2 font-light">
+    *
+    </p>
+    <div class="lg:text-lg">
+      <p class="mb-4">
+        Stuff – like tools to help us live better, create, and grow – can be awesome. But a lot pushed at us by consumer culture (review websites included!) is throwaway and wasteful. 
+      </p>
+      <p class="">
+      Modernthird is a list of my favorite recommendations and tips for enjoying more with less waste. Save your money, space, and time for what matters.
+      </p>
+    </div>
+  </div>
+
+  <div class="mt-16 mb-8">
+    <a class="border-4 border-blue-500 rounded-lg text-blue-500 text-xl font-semibold px-6 py-3" href="/reviews">
+      Buy Less
+    </a>
+  </div>
+
 
   {# <div class="place-self-center">
     {% include "./_includes/partials/content.njk" %}

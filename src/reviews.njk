@@ -9,7 +9,7 @@ layout: toc
     {% for recommendation in recommendationslist | reverse %}
         <article class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-white my-8 max-w-full border-4 border-gray-100 border-opacity-10 rounded-3xl shadow-2xl p-8">
             <div class="">
-                <h2 class="font-bold text-5xl text-gray-800 mt-2 mb-4">
+                <h2 class="font-bold text-4xl text-gray-800 mt-2 mb-4">
                     <a href="{{ recommendation.url | url }}">
                         {% if recommendation.data.title %}
                             {{ recommendation.data.title }}
@@ -32,17 +32,23 @@ layout: toc
                 {% endif %}
 
                 <a href="{{ recommendation.url | url }}">
-                    <p class="text-blue-500 font-bold text-lg mt-12 text-right">
-                        Free (Basically)
-                    </p>
-
-                    <p class="text-gray-500 text-base text-right">
-                        Read more →
+                    <p class="text-right leading-none mt-4">
+                        <span class="text-blue-500 font-bold text-lg mt-12">
+                            {{ recommendation.data.price }}
+                        </span>
+                        <br />
+                        <span class="text-gray-500 text-base font-bold">
+                            Read more
+                        </span>                    
                     </p>
                 </a>
             </div>
             <div>
+            {% if recommendation.data.cover_photo %}
+                <img class="object-cover rounded-3xl w-full h-full" src="/static/photo/{{ recommendation.data.cover_photo }}"/>
+            {% else %}
                 <img class="object-cover rounded-3xl w-full h-full" src="https://source.unsplash.com/random"/>
+            {% endif %}
             </div>
         </article>
     {% endfor %}
