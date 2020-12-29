@@ -1,0 +1,9 @@
+---
+- name: home
+  label: Home
+- name: kitchen
+  label: "Kitchen & Eating"
+- name: travel
+  label: "Travel & Adventure"
+- name: money
+  label: Money
