@@ -17,6 +17,11 @@ npm run start
 To edit:
 Edit `src/index.njk`.
 
+To deploy to Netlify:
+```
+netlify deploy
+```
+
 ## Notes
 
 Eleventy -based static site generated blog initially started with [https://neat-starter.netlify.app/](https://neat-starter.netlify.app/). 
