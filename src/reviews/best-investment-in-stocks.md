@@ -2,7 +2,7 @@
 title: "VTSAX – Vanguard Total Stock Market Index Fund"
 subtitle: The best simple investment for most people
 description: In the long-term, the U.S. stock market is best performing investment people can buy. Big corporations will keep raking in more and more money. So what if you could own them all, make them work for you while you sleep, and take their profits for yourself? That's what VTSAX lets you do. For cheap.
-price: Less than a nickel per $1000
+price: Less than a nickel per $1000 to own part of every major US corporation and make them work for you 24/7.
 cover_photo: dollar-bill.jpg
 date: 2020-12-28
 author: Tom
