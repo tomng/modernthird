@@ -16,8 +16,11 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
-.card-target:target > article {
-  box-shadow: 0 0 25px 8px rgba(59, 130, 246, 0.4);
+/* On 2-across screens, highlight targeted cards on anchor scroll to */
+@media (min-width: 1024px) {
+  .card-target:target > article {
+    box-shadow: 0 0 25px 8px rgba(59, 130, 246, 0.4);
+  }
 }
 
 /* Syntax Highlighting*/
