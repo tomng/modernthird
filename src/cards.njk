@@ -1,0 +1,12 @@
+---
+title: The Best Stuff
+layout: toc
+---
+
+<section class="grid lg:grid-cols-2 gap-8 my-10">
+    {% set recommendationslist = collections.recommendation %}
+
+    {% for recommendation in recommendationslist | reverse %}
+        {% include "./_includes/partials/card-sm.njk" %}
+    {% endfor %}
+</section>
