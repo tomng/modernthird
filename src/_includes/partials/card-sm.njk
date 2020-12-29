@@ -1,5 +1,5 @@
 <a href="{{ recommendation.url | url }}">
-    <article class="flex flex-col justify-between bg-white mb-1 max-w-sm rounded-3xl shadow-2xl grid-auto-rows: 1fr overflow-hidden">
+    <article class="flex flex-col justify-between bg-white mb-1 max-w-sm rounded-3xl shadow-2xl grid-auto-rows: 1fr overflow-hidden transition duration-700 ease-out transform hover:rotate-2 hover:shadow-xl" ontouchmove>
 
         <h3 class="w-10/12 font-bold text-xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 pt-8 px-8">
                 {% if recommendation.data.subtitle %}
