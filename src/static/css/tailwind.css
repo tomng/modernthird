@@ -16,6 +16,10 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
+.divtarget:target > article {
+  box-shadow: 0 0 25px 8px rgba(59, 130, 246, 0.4);
+}
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
