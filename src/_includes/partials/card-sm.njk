@@ -1,16 +1,16 @@
 <a href="{{ recommendation.url | url }}">
-    <article class="flex flex-col justify-between bg-white mb-1 max-w-full border-4 border-gray-100 border-opacity-10 rounded-3xl shadow-2xl p-8 grid-auto-rows: 1fr">
-        <h3 class="font-bold text-xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+    <article class="flex flex-col justify-between bg-white mb-1 max-w-full rounded-3xl shadow-2xl grid-auto-rows: 1fr">
+        <h3 class="font-bold text-xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 pt-8 pb-4 px-8">
                 {% if recommendation.data.subtitle %}
                     {{ recommendation.data.subtitle }}
                 {% endif %}
         </h3>
 
         {% if recommendation.data.cover_photo %}
-            <img class="self-end object-cover rounded-full h-36 w-36" src="/static/photo/{{ recommendation.data.cover_photo }}"/>
+            <img class="self-end object-cover h-36 w-full" src="/static/photo/{{ recommendation.data.cover_photo }}"/>
         {% endif %}
         
-        <div class="lg:w-10/12">
+        <div class="lg:w-10/12 pt-8 pb-8 px-8">
             <h2 class="font-bold text-4xl text-gray-800 mt-4">
                 {% if recommendation.data.title %}
                     {{ recommendation.data.title }}
@@ -18,7 +18,7 @@
                     Untitled
                 {% endif %}
             </h2>
-            <p class="leading-none text-sm leading-tight mt-2 text-gray-400">
+            <p class="leading-none text-sm leading-tight mt-4 text-gray-400">
                 {{ recommendation.data.price }}
             </p>
         </div>
