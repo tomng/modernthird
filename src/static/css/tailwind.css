@@ -5,7 +5,7 @@
 /*Your Custom CSS Goes here*/
 
 h1 {
-  @apply text-4xl tracking-tight mb-3 lg:text-7xl;
+  @apply text-4xl tracking-tight mb-2 lg:text-7xl;
 }
 
 h2 {

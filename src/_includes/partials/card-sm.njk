@@ -1,13 +1,13 @@
 <a href="{{ recommendation.url | url }}">
-    <article class="flex flex-col justify-between bg-white mb-1 max-w-sm rounded-3xl shadow-2xl grid-auto-rows: 1fr overflow-hidden">
+    <article class="flex flex-col justify-between bg-white mb-1 max-w-lg rounded-3xl shadow-2xl overflow-hidden">
 
-        <h3 class="w-10/12 font-bold text-xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 pt-8 px-8">
+        <h3 class="font-bold text-xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 pt-8 px-8">
                 {% if recommendation.data.subtitle %}
                     {{ recommendation.data.subtitle }}
                 {% endif %}
         </h3>
 
-        <div class="w-10/12 pt-6 pb-12 px-8">
+        <div class="w-11/12 pt-6 pb-12 px-8">
             <h2 class="font-bold text-3xl lg:text-4xl text-gray-800">
                 {% if recommendation.data.title %}
                     {{ recommendation.data.title }}
@@ -21,7 +21,7 @@
         </div>
 
         {% if recommendation.data.cover_photo %}
-            <img class="self-end object-cover h-36 w-full" src="/static/photo/{{ recommendation.data.cover_photo }}"/>
+            <img class="self-end object-cover h-64 w-full" src="/static/photo/{{ recommendation.data.cover_photo }}"/>
         {% endif %}
         
 
