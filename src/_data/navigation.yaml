@@ -1,6 +1,4 @@
 ---
 items:
-  - text: Recommendations
-    url: "/reviews"
   - text: About
     url: "/about"

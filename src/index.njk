@@ -6,19 +6,17 @@ path: home
 
 <div class="container mx-auto mt-8 lg:mt-32 mb-16 flex flex-col justify-center px-6 lg:px-20 max-w-4xl">
 
-  <a href="/reviews">
-    <h1>
-      <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-        {{title}}
-      </strong>
-      <br/>
-      is a shortlist of great&nbsp;stuff 
-      to simplify&nbsp;& live&nbsp;better.
-    </h1>
-    <h2 class="mt-4 mb-4 leading-snug">
-      <span class="bg-yellow-100 px-1">Buy&nbsp;less</span>, enjoy the best, and <span class="bg-yellow-100 px-1">live&nbsp;more</span>.
-    </h2>
-  </a>
+  <h1>
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      {{title}}
+    </strong>
+    <br/>
+    is a shortlist of great&nbsp;stuff 
+    to simplify&nbsp;& live&nbsp;better.
+  </h1>
+  <h2 id="shortlist" class="mt-4 mb-4 lg:mb-8 leading-snug">
+    <span class="bg-yellow-100 px-1">Buy&nbsp;less</span>, enjoy the best, and <span class="bg-yellow-100 px-1">live&nbsp;more</span>.
+  </h2>
 
   {# <div class="mt-8 lg:mt-16 mb-8 text-right">
     <a class="bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg text-white text-xl font-semibold px-8 py-4" href="/reviews">
@@ -57,6 +55,12 @@ path: home
         {% include "./_includes/partials/card-sm.njk" %}
       {% endfor %}
   </section>
+
+  <a href="#shortlist">
+    <div class="fixed bottom-3 right-2 bg-black bg-opacity-40 rounded-full p-2">
+      <svg class="text-white stroke-current fill-current w-4 h-4"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12 7" version="1.1" x="0px" y="0px"><path d="M3.500125,9.500375 C3.244125,9.500375 2.988125,9.402375 2.793125,9.207375 C2.402125,8.816375 2.402125,8.184375 2.793125,7.793375 L7.086125,3.500375 L2.793125,-0.792625 C2.402125,-1.183625 2.402125,-1.815625 2.793125,-2.206625 C3.184125,-2.597625 3.816125,-2.597625 4.207125,-2.206625 L9.207125,2.793375 C9.598125,3.184375 9.598125,3.816375 9.207125,4.207375 L4.207125,9.207375 C4.012125,9.402375 3.756125,9.500375 3.500125,9.500375" transform="translate(6.000125, 3.500250) rotate(-90.000000) translate(-6.000125, -3.500250) "></path></svg>  
+    </div>
+  </a>
 
   {# <div class="place-self-center">
     {% include "./_includes/partials/content.njk" %}
