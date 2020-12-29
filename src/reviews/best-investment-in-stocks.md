@@ -1,8 +1,8 @@
 ---
-title: "VTSAX: Vanguard Total Stock Market Index Fund"
+title: "VTSAX – Vanguard Total Stock Market Index Fund"
 subtitle: The best simple investment for most people
-description: Often the best product is one you can make yourself – in less time than it takes to open an Amazon box. Mix distilled vinegar and water (1:1) in a spray bottle. It's the best way to clean glass, kitchen counters, and most hard surfaces all around your home. A gallon jug of vinegar covers a year's worth of your cleaning supplies for a few bucks. 
-price: Free to Setup
+description: In the long-term, the U.S. stock market is best performing investment people can buy. Big corporations will keep raking in more and more money. So what if you could own them all, make them work for you while you sleep, and take their profits for yourself? That's what VTSAX lets you do. For cheap.
+price: Less than a nickel (per $1000)
 cover_photo: dollar-bill.jpg
 date: 2020-09-02
 author: Tom

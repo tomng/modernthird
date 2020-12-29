@@ -32,14 +32,11 @@ layout: toc
                 {% endif %}
 
                 <a href="{{ recommendation.url | url }}">
-                    <p class="text-right leading-none mt-4">
-                        <span class="text-blue-500 font-bold text-lg mt-12">
-                            {{ recommendation.data.price }}
-                        </span>
-                        <br />
-                        <span class="text-gray-500 text-base font-bold">
-                            Read more
-                        </span>                    
+                    <p class="leading-none font-bold text-lg mt-16 leading-none mb-4 max-w-xs">
+                        {{ recommendation.data.price }}
+                    </p>
+                    <p class="inline-block bg-blue-500 text-white rounded-lg text-xl font-semibold px-6 py-3">
+                        Learn more
                     </p>
                 </a>
             </div>
