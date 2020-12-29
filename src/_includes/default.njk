@@ -15,6 +15,15 @@
     {% if prism == true %}
       <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
     {% endif %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JHMFVB7KV9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JHMFVB7KV9');
+    </script>
   </head>
   <body class="min-h-screen max-w-6xl mx-auto bg-gray-50">
     {% include "./partials/navbar.njk" %}
