@@ -7,7 +7,7 @@ cover_photo: heattech.jpg
 date: 2020-12-28
 author: Tom
 tags:
-  - diy
-  - makeit
+- home
+- travel
 ---
 

@@ -7,7 +7,6 @@ cover_photo: mason-jars.jpg
 date: 2020-12-28
 author: Tom
 tags:
-  - diy
-  - makeit
+  - kitchen
 ---
 

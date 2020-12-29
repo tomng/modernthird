@@ -26,11 +26,23 @@ path: home
     </a>
   </div> #}
 
-  <section class="grid lg:grid-cols-2 gap-8 my-8 lg:my-16">
-      {% set recommendationslist = collections.recommendation %}
+  {% set recommendationslist = collections.recommendation %}
 
+  <section class="my-8 lg:my-16">
       {% for recommendation in recommendationslist | reverse %}
-          {% include "./_includes/partials/card-sm.njk" %}
+          <ul>
+            <li>
+              <a href="#card-{{recommendation.fileSlug}}">
+                {{ recommendation.data.subtitle }}
+              </a>
+            </li>
+          </ul>
+      {% endfor %}
+  </section>
+
+  <section class="grid lg:grid-cols-2 gap-8 my-8 lg:my-16">
+      {% for recommendation in recommendationslist | reverse %}
+        {% include "./_includes/partials/card-sm.njk" %}
       {% endfor %}
   </section>
 

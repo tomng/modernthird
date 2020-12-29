@@ -7,8 +7,7 @@ cover_photo: white-cloth-napkin.jpg
 date: 2020-12-28
 author: Tom
 tags:
-  - diy
-  - makeit
+  - kitchen
 ---
 
 Cast iron rocks.

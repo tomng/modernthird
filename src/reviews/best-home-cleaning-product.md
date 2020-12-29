@@ -7,8 +7,7 @@ cover_photo: kitchen-towel.jpg
 date: 2020-12-28
 author: Tom
 tags:
-  - diy
-  - makeit
+  - home
 ---
 
 Sometimes the best product is no product at all. Mixing simple distilled vinegar and water (1:1) is the best way to clean most of the hard surfaces in your home to get a spot-free, streak-free, germ-free shine.
